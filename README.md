@@ -1,11 +1,10 @@
 # LSI_Design
 
 **BLOCK A**
-<br>
+
 - Trọng
 
 **BLOCK B**
-<br>
 - Chương
 
 **BLOCK C**
