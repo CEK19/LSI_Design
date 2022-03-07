@@ -1,14 +1,14 @@
 # LSI_Design
 
-**BLOCK A** </br>
+**BLOCK A** <br>
 - Trọng
-**BLOCK B** </br>
+**BLOCK B** <br>
 - Chương
-**BLOCK C** </br>
+**BLOCK C** <br>
 - Sang
-**BLOCK D** </br>
+**BLOCK D** <br>
 - Tú
-**BLOCK E** </br>
+**BLOCK E** <br>
 - Nhân
-**BLOCK D + E** </br>
+**BLOCK D + E** <br>
 - Tú + Nhân
