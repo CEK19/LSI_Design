@@ -7,7 +7,7 @@
 - **NGUYEN THANH CHUONG**
   - Block B
   - FSM + Explaination  
-- **NGUYEN THANH SANG* 
+- **NGUYEN THANH SANG**
   - Block C
   - FSM + Explaination  
 - **LE HOANG MINH TU**
