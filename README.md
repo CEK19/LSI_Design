@@ -1,20 +1,20 @@
-# LSI_Design
-**DEADLINE:** 
+# LSI_Design  
+**DEADLINE:**  
 - Done checklist + file word (specification): 6:00 PM 08/03/2022
-**HO HUU TRONG**
+**HO HUU TRONG**  
 - Block A
 - FSM + Explaination
-**NGUYEN THANH CHUONG**
+**NGUYEN THANH CHUONG**  
 - Block B
 - FSM + Explaination
-**NGUYEN THANH SANG**
+**NGUYEN THANH SANG**  
 - Block C
 - FSM + Explaination
-**LE HOANG MINH TU**
+**LE HOANG MINH TU**  
 - Block D
 - Block D + E
 - Block Diagram + Explaination
-**NGUYEN TRONG NHAN**
+**NGUYEN TRONG NHAN**  
 - Block E
 - Block D + E
 - Block Diagram + Explaination
