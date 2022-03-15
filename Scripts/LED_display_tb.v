@@ -1,6 +1,6 @@
 module LED_display_tb;
-    reg     [4:0]   counter_out,
-    wire    [15:0]  led_out
+    reg     [4:0]   counter_out;
+    wire    [15:0]  led_out;
 
     LED_display TESTMODULE_LED_display (
         .counter_out(counter_out),
