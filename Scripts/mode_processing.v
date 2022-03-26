@@ -1,8 +1,8 @@
-module mode_processing( input 					check,
-								input						rst,
-								input 					flick,
-								input				[2:0] prev_mode,
-								output	reg	[2:0]	mode );
+module mode_processing( input 				check,
+						input				rst,
+						input 				flick,
+						input		[2:0] 	prev_mode,
+						output	reg	[2:0]	mode );
 								
 	reg [2:0] state = 3'b0;
 
