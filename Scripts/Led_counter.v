@@ -3,13 +3,11 @@ module Led_counter (
 						  input	[4:0]	 end_num,
 						  input	clk, up_down, rst,
                     output reg  [4:0]  counter_out,
-						  output check
+						  output reg check
                     );
 						  
 	always @(posedge rst or posedge clk) begin
-		if (rst) counter_out <= 4'b0000;
-		
-		else if () // khuc nay kieu k nghi ra cach gan start_num vo counter_out nen gap day, ae thong cam
+		if (rst) counter_out <= 5'b00000;
 		
 		else if (up_down) begin //count up
 			if (counter_out < end_num)
