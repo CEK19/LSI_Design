@@ -22,6 +22,16 @@ module mode_processing_tb;
     end
 
     initial begin
+			#5;
+			check = 1;
+			rst = 1;
+			#5;
+			rst = 0;
+			#5;
+			flick = 1;
+			#5;
+			flick = 0;
+			#5;
                     // OUTPUT =  0
 
         #20;
@@ -61,24 +71,59 @@ module mode_processing_tb;
         check = 0; // OUTPUT = 0        
 
         #20;
-        prev_mode = 3'b001 
         check = 1;
-        flick = 1; // OUTPUT = 0;
+		  flick = 1; // OUTPUT = 1
+		  
+		  #20;
+		  check = 0; // OUTPUT = 1
+		  
+		  #20;
+		  check = 1; // OUTPUT = 2
+		  
+		  #20;
+		  check = 0; // OUTPUT = 2
+		  
+		  #20;
+		  check = 1; // OUTPUT = 3
+		  
+		  #20;
+		  check = 0; // OUTPUT = 3
+		  
+		  #20;
+		  check = 1; // OUTPUT = 2
+		  
+		  #20;
+		  flick = 0;
+		  check = 0; // OUTPUT = 2
 
-        #20;
-        check = 0;
-        flick = 1; // OUTPUT = 0;
+		  #20;
+		  check = 1; // OUTPUT = 3
+		  
+		  #20;
+		  check = 0; // OUTPUT = 3
 
-        #20;
-        prev_mode = 3'b011;
-        check = 1;
-        flick = 1; // OUTPUT = 2;
+		  #20;
+		  check = 1; // OUTPUT = 4
+		  
+		  #20;
+		  check = 0; // OUTPUT = 4
+		  
 
-        #20;
-        prev_mode = 3'b101;
-        check = 1;
-        flick = 1; // OUTPUT = 0;
-        $finish;
+		  #20;
+		  check = 1; // OUTPUT = 5
+		  
+		  #20;
+		  flick = 1;
+		  check = 0; // OUTPUT = 5
+		  
+
+		  #20;
+		  check = 1; // OUTPUT = 0 
+		  
+		  #20;
+		  check = 0; // OUTPUT = 0
+		  
+		  $finish;
     end
 
 endmodule
