@@ -4,15 +4,15 @@ module LED_display (
 						input	[4:0]  start_num,
 						  input	[4:0]	 end_num,
 						  input	clk, up_down, rst,
-                    output reg  [15:0]  led_out
+                    output reg  [15:0]  led_out,
 						  output check
                     );
     
-	 reg [4:0] counter_out;
+	 wire [4:0] counter_out;
 	 wire new_clk;
 	 
-	 Devider(clk,rst,new_clk);
-	 Led_counter (start_num,end_num, new_clk, up_down, rst,counter_out, check);
+	 Devider divider(clk,rst,new_clk);
+	 Led_counter led_counter(start_num,end_num, new_clk, up_down, rst,counter_out, check);
 	 
 	 
 	 always @(counter_out) begin
